@@ -275,7 +275,7 @@ function lme_bmv_inv_func_property_detail( $propid ){
 	// $photosemptycurrently    
 
     $property = array(
-      'propid' => 1234,
+      'propid' => $propid,
      'title' => 'Test Property',
       'classification' => 'Residential',
      'propertyinformation' => array(
@@ -1218,7 +1218,7 @@ function lme_bmv_inv_func_create_member($memberyc){
 		$messagea .= "Password:	".$password."\n";
 		$messagea .= "Link : https://propertyinvestor.propertyleadportal.com/login/"."\n\n\n\n";
 		
-		$messagea .= "If we can help in anyway then don’t hesitate to get in touch. "."\n\n";
+		$messagea .= "If we can help in anyway then donÂ’t hesitate to get in touch. "."\n\n";
 		$messagea .= $plpfooter;
 		
 		$yourname = 'Property Lead Portal';
@@ -1857,9 +1857,9 @@ function lme_bmv_inv_func_provide_lead_full($inputs) {
 	// INPUT = $add3					Town / City
 	// INPUT = $add4					County
 	// INPUT = $pcode					Post Code
-	// INPUT = $propertyvalue			value of property in £
-	// INPUT = $outstandingmortgage		total outstanding mortgage in £
-	// INPUT = $securedloans			total secured loans in £
+	// INPUT = $propertyvalue			value of property in Â£
+	// INPUT = $outstandingmortgage		total outstanding mortgage in Â£
+	// INPUT = $securedloans			total secured loans in Â£
 	
 	// INPUT = $reasonforsale			ID for selected reason for sale, this will populate the <SELECT><OPTION>  "/home/yjcnw125gejm/public_html/darenpledger-com/www/admin/lme_options_reasons.php" and allow you to pass the ID
 	
